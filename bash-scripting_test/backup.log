@@ -1,0 +1,10 @@
+[2025-11-05 16:25:27] INFO: Starting backup of C:/Users/user/OneDrive/Desktop/Website
+[2025-11-05 16:25:27] INFO: Destination: /c/Users/user/OneDrive/Desktop/Bash Scripting Test/backup-system/bash-scripting_test
+[2025-11-05 16:25:27] INFO: Excludes: .git,node_modules,.cache
+[2025-11-05 16:25:28] INFO: Creating archive: Website-2025-11-05-1625.tar.gz
+[2025-11-05 16:25:28] SUCCESS: Backup created: Website-2025-11-05-1625.tar.gz
+[2025-11-05 16:27:17] INFO: Starting backup of C:/Users/user/OneDrive/Desktop/Website
+[2025-11-05 16:27:17] INFO: Destination: C:\Users\user\OneDrive\Desktop\Bash Scripting Test\backup-system\bash-scripting_test
+[2025-11-05 16:27:17] INFO: Excludes: .git,node_modules,.cache
+[2025-11-05 16:27:17] INFO: Creating archive: Website-2025-11-05-1627.tar.gz
+[2025-11-05 16:27:20] ERROR: Backup failed
