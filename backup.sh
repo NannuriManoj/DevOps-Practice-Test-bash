@@ -1,21 +1,5 @@
 #!/usr/bin/env bash
 
-# This is a SIMPLE and HEAVILY-COMMENTED backup script
-# Goal: Be easy to read and understand (not feature-complete)
-# Added features:
-#  - Dry-run mode (--dry-run)
-#  - Lock file to prevent concurrent runs
-#  - Rotation: keep last N daily/weekly/monthly backups
-#  - Disk space check before backup
-#  - Better checksum naming (.sha256 or .md5 depending on available tool)
-#  - Cleanup on interruption (partial archives removed)
-#
-# Usage examples:
-#   ./backup_simple.sh /path/to/source
-#   ./backup_simple.sh --dry-run /path/to/source
-#   ./backup_simple.sh --list
-#   ./backup_simple.sh --restore backup-2024-11-03-1430.tar.gz --to /tmp/restore_test
-
 set -euo pipefail
 
 # find the home directory of this script
